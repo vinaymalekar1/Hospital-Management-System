@@ -16,7 +16,7 @@ import java.util.Vector;
 
         public HospitalManagementUI(Connection connection) {
             this.connection = connection;
-            this.p = new patient(connection, null); // no scanner needed for UI
+            this.p = new patient(connection, null); 
             this.d = new Doctor(connection);
 
             setTitle("Hospital Management System");
