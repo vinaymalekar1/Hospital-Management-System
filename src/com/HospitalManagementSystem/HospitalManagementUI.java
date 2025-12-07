@@ -24,7 +24,6 @@ public class HospitalManagementUI extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Tabbed UI
         JTabbedPane tabs = new JTabbedPane();
         tabs.add("Add Patient", createAddPatientPanel());
         tabs.add("View Patients", createViewPatientPanel());
