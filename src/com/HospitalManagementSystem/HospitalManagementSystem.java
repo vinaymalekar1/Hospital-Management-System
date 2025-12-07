@@ -10,7 +10,7 @@ import javax.swing.SwingUtilities;
 public class HospitalManagementSystem {
     private static final String url = "jdbc:mysql://localhost:3306/hospital";
     private static final String username = "root";
-    private static final String password = "Vin@Y@2oo3";
+    private static final String password = "Your_Password";
 
     public static void main(String[] args) {
         try {
